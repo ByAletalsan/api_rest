@@ -2,7 +2,7 @@ const express = require('express');
 const user = require('./modulo');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://atalaver:Talavera.2002@cluster0.4kijey7.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('url');
 
 const app = express();
 const port = 4000;
