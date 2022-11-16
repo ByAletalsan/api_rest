@@ -2,7 +2,7 @@ const express = require('express');
 const user = require('./modulo');
 const mongoose = require('mongoose');
 
-mongoose.connect('url');
+mongoose.connect('url'); //Hay que poner aquí la url de tu mongodb para conectarlo
 
 const app = express();
 const port = 4000;
